@@ -2,7 +2,7 @@
 FROM httpd:latest
 
 # Copy your HTML file into the container
-COPY sample.html /usr/local/apache2/htdocs/
+COPY index.html /usr/local/apache2/htdocs/
 
 # Optionally, you can copy additional static files or directories if needed
 # COPY css/ /usr/local/apache2/htdocs/css/
